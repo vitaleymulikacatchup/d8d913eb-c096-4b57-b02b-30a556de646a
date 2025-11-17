@@ -224,7 +224,7 @@ export default function Home() {
         <ContactCenterForm
           title="Schedule Your Consultation"
           description="Ready to take control of your financial future? Let's discuss your investment goals and create a personalized strategy."
-          buttonText="Submit Request"
+          buttonText="Get Free Consultation"
           inputs={[
             { name: "name", type: "text", placeholder: "Your Full Name", required: true },
             { name: "email", type: "email", placeholder: "Email Address", required: true },
