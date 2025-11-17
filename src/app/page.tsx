@@ -48,7 +48,7 @@ export default function Home() {
             { text: "Schedule Consultation", href: "contact" },
             { text: "Learn More", href: "about" }
           ]}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763373462937-fng2vl75.jpg"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763390789218-miydtvma.jpg"
           imageAlt="Professional financial advisor"
         />
       </div>
