@@ -43,7 +43,7 @@ export default function Home() {
           title="Your Trusted Financial & Crypto Advisor"
           description="Navigate the complex world of traditional investments and cryptocurrency with expert guidance tailored to your financial goals"
           tag="Professional Advisory"
-          tagIcon={TrendingUp}
+          tagIcon={Shield}
           buttons={[
             { text: "Schedule Consultation", href: "contact" },
             { text: "Learn More", href: "about" }
