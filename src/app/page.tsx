@@ -85,7 +85,7 @@ export default function Home() {
               icon: CheckCircle
             }
           ]}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763390789218-miydtvma.jpg"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763393605222-53v7i0t8.jpg"
           imageAlt="Financial advisor consulting with client"
           imagePosition="right"
           textboxLayout="default"
