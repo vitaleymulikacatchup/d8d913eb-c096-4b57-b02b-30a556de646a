@@ -159,8 +159,7 @@ export default function Home() {
               role: "Business Owner",
               company: "Tech Startup",
               rating: 5,
-              imageSrc: "/placeholders/placeholder1.webp",
-              content: "Working with this advisor transformed my investment strategy. The balanced approach between traditional stocks and crypto helped me achieve a 25% portfolio growth while managing risk effectively."
+              imageSrc: "/placeholders/placeholder1.webp"
             },
             {
               id: "2",
@@ -168,8 +167,7 @@ export default function Home() {
               role: "Software Engineer",
               company: "Fortune 500",
               rating: 5,
-              imageSrc: "/placeholders/placeholder1.webp",
-              content: "The cryptocurrency guidance was exactly what I needed. My advisor helped me navigate the volatile crypto market while building a solid foundation with traditional investments."
+              imageSrc: "/placeholders/placeholder1.webp"
             },
             {
               id: "3",
@@ -177,8 +175,7 @@ export default function Home() {
               role: "Marketing Director",
               company: "Agency",
               rating: 5,
-              imageSrc: "/placeholders/placeholder1.webp",
-              content: "Excellent retirement planning advice that incorporated both conventional 401k optimization and forward-thinking crypto strategies. I feel confident about my financial future."
+              imageSrc: "/placeholders/placeholder1.webp"
             },
             {
               id: "4",
@@ -186,8 +183,7 @@ export default function Home() {
               role: "Entrepreneur",
               company: "E-commerce",
               rating: 5,
-              imageSrc: "/placeholders/placeholder1.webp",
-              content: "The ongoing portfolio monitoring and market analysis reports keep me informed and confident in my investment decisions. Professional service with proven results."
+              imageSrc: "/placeholders/placeholder1.webp"
             }
           ]}
         />
