@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
@@ -134,8 +134,7 @@ export default function Home() {
               role: "Business Owner",
               company: "Tech Startup",
               rating: 5,
-              imageSrc: "/placeholders/placeholder1.webp",
-              quote: "Working with FinanceAdvisor has transformed my investment strategy. The crypto guidance helped me diversify my portfolio while maintaining solid traditional investments."
+              imageSrc: "/placeholders/placeholder1.webp"
             },
             {
               id: "2",
@@ -143,8 +142,7 @@ export default function Home() {
               role: "Software Engineer",
               company: "Fortune 500",
               rating: 5,
-              imageSrc: "/placeholders/placeholder1.webp",
-              quote: "The retirement planning service exceeded my expectations. The combination of traditional 401k optimization with crypto retirement accounts gives me confidence in my future."
+              imageSrc: "/placeholders/placeholder1.webp"
             },
             {
               id: "3",
@@ -152,8 +150,7 @@ export default function Home() {
               role: "Marketing Director",
               company: "Agency",
               rating: 5,
-              imageSrc: "/placeholders/placeholder1.webp",
-              quote: "Professional, knowledgeable, and always available for questions. The portfolio management service has consistently delivered strong returns while managing risk effectively."
+              imageSrc: "/placeholders/placeholder1.webp"
             },
             {
               id: "4",
@@ -161,8 +158,7 @@ export default function Home() {
               role: "Entrepreneur",
               company: "E-commerce",
               rating: 5,
-              imageSrc: "/placeholders/placeholder1.webp",
-              quote: "The cryptocurrency advisory service helped me navigate the volatile crypto market with confidence. The risk management strategies have been invaluable."
+              imageSrc: "/placeholders/placeholder1.webp"
             }
           ]}
         />
