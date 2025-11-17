@@ -3,14 +3,14 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import HeroBillboard from '@/components/sections/hero/HeroBillboard';
-import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
+import SplitAbout from '@/components/sections/about/SplitAbout';
 import FeatureCardFour from '@/components/sections/feature/FeatureCardFour';
 import MetricCardThree from '@/components/sections/metrics/MetricCardThree';
 import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import FaqSplitText from '@/components/sections/faq/FaqSplitText';
 import ContactCenterForm from '@/components/sections/contact/ContactCenterForm';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
-import { Award, BarChart, Briefcase, Coins, DollarSign, Linkedin, Mail, MessageCircle, PieChart, Shield, TrendingUp, Twitter, Users } from "lucide-react";
+import { Award, BarChart, Briefcase, CheckCircle, Coins, DollarSign, Linkedin, Mail, MessageCircle, PieChart, Shield, TrendingUp, Twitter, Users } from "lucide-react";
 
 export default function Home() {
   return (
@@ -54,16 +54,41 @@ export default function Home() {
       </div>
 
       <div id="about" data-section="about">
-        <TextSplitAbout
-          title="About Me"
-          description={[
-            "With over 15 years of experience in financial planning and 5 years specializing in cryptocurrency investments, I help clients build diversified portfolios that balance traditional assets with digital currencies.",
-            "My approach combines time-tested investment principles with cutting-edge blockchain technology insights to maximize your financial potential."
-          ]}
+        <SplitAbout
+          title="About My Services"
+          description="With over 15 years of experience in financial planning and 5 years specializing in cryptocurrency investments, I help clients build diversified portfolios that balance traditional assets with digital currencies."
+          tag="Professional Advisory"
+          tagIcon={Shield}
           buttons={[
-            { text: "View Credentials", href: "credentials" }
+            { text: "View Credentials", href: "credentials" },
+            { text: "Schedule Consultation", href: "contact" }
           ]}
-          showBorder={true}
+          bulletPoints={[
+            {
+              title: "Traditional Investment Expertise",
+              description: "15+ years of experience managing stocks, bonds, mutual funds, and retirement accounts with proven track record",
+              icon: TrendingUp
+            },
+            {
+              title: "Cryptocurrency Specialization",
+              description: "5 years focused on Bitcoin, Ethereum, and altcoin investment strategies with risk management protocols",
+              icon: Coins
+            },
+            {
+              title: "Holistic Portfolio Approach",
+              description: "Balanced integration of traditional and digital assets tailored to your risk tolerance and financial goals",
+              icon: PieChart
+            },
+            {
+              title: "Ongoing Support & Education",
+              description: "Continuous market analysis, portfolio monitoring, and client education to ensure informed investment decisions",
+              icon: CheckCircle
+            }
+          ]}
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763390789218-miydtvma.jpg"
+          imageAlt="Financial advisor consulting with client"
+          imagePosition="right"
+          textboxLayout="default"
         />
       </div>
 
